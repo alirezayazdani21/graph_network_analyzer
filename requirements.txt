@@ -1,72 +1,95 @@
 altair==6.0.0
+archspec @ file:///home/task_175812491784513/conda-bld/archspec_1758124989039/work
 asttokens==2.0.8
 attrs==25.4.0
 backcall==0.2.0
 blinker==1.9.0
-Bottleneck 
+boltons @ file:///C:/b/abs_e2_iokhxbp/croot/boltons_1751383740243/work
+Bottleneck @ file:///C:/miniconda3/conda-bld/bottleneck_1761938096667/work
+brotlicffi @ file:///C:/miniconda3/conda-bld/brotlicffi_1764961372591/work
 cachetools==6.2.2
-certifi==2025.11.12
-charset-normalizer==3.4.4
+certifi @ file:///C:/miniconda3/conda-bld/certifi_1763135347537/work/certifi
+cffi @ file:///C:/miniconda3/conda-bld/cffi_1761832794697/work
+charset-normalizer @ file:///C:/miniconda3/conda-bld/charset-normalizer_1761744944645/work
 click==8.3.1
 colorama==0.4.5
-contourpy 
-cycler 
+conda @ file:///C:/miniconda3/conda-bld/conda_1765567837981/work/conda-src
+conda-libmamba-solver @ file:///C:/miniconda3/conda-bld/conda-libmamba-solver_1764245615235/work/src
+conda-package-handling @ file:///C:/miniconda3/conda-bld/conda-package-handling_1762366500126/work
+conda_package_streaming @ file:///C:/miniconda3/conda-bld/conda-package-streaming_1762361691211/work
+contourpy @ file:///C:/b/abs_f2u2o_8s9g/croot/contourpy_1732540071787/work
+cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
 debugpy==1.6.3
 decorator==5.1.1
+distro @ file:///C:/b/abs_71xr36ua5r/croot/distro_1714488282676/work
 entrypoints==0.4
 executing==1.0.0
-fonttools 
+fonttools @ file:///C:/miniconda3/conda-bld/fonttools_1765445217350/work
+frozendict @ file:///C:/miniconda3/conda-bld/frozendict_1761750688296/work
 gitdb==4.0.12
 GitPython==3.1.45
-idna==3.11
+google-pasta @ file:///Users/ktietz/demo/mc3/conda-bld/google-pasta_1630577991354/work
+idna @ file:///C:/miniconda3/conda-bld/idna_1761912044311/work
 ipykernel==6.15.2
 ipython==8.4.0
 jedi==0.18.1
 Jinja2==3.1.6
 joblib==1.5.2
+jsonpatch @ file:///C:/b/abs_4fdm88t7zi/croot/jsonpatch_1714483974578/work
 jsonpickle==4.1.1
+jsonpointer @ file:///C:/b/abs_73u73l7pl9/croot/jsonpointer_1753788460913/work
 jsonschema==4.25.1
 jsonschema-specifications==2025.9.1
 jupyter-core==4.11.1
 jupyter_client==7.3.5
-kiwisolver 
+kiwisolver @ file:///C:/miniconda3/conda-bld/kiwisolver_1764159353779/work
+libmambapy @ file:///C:/miniconda3/conda-bld/mamba-split_1763111606669/work/libmambapy
 lxml==6.0.2
 MarkupSafe==3.0.3
 matplotlib==3.10.7
 matplotlib-inline==0.1.6
+menuinst @ file:///C:/miniconda3/conda-bld/menuinst_1765382399762/work
 mkl-service==2.5.2
-mkl_fft 
-mkl_random 
+mkl_fft @ file:///C:/miniconda3/conda-bld/mkl_fft_1761592981169/work
+mkl_random @ file:///C:/miniconda3/conda-bld/mkl_random_1761593075610/work
+msgpack @ file:///C:/b/abs_4b3t4uhz3r/croot/msgpack-python_1750958631084/work
 narwhals==2.13.0
 nest-asyncio==1.5.5
 networkx==3.4.2
-numexpr 
-numpy 
+numexpr @ file:///C:/miniconda3/conda-bld/numexpr_1762165723970/work
+numpy @ file:///C:/miniconda3/conda-bld/numpy_and_numpy_base_1761579405538/work/dist/numpy-2.2.5-cp310-cp310-win_amd64.whl#sha256=074bffd27eaf24d54337a4bac76b167c7d794ddb6a813f6fa3fb37c91af766a8
 packaging==21.3
-pandas
+pandas @ file:///C:/miniconda3/conda-bld/pandas_1762332399653/work/dist/pandas-2.3.3-cp310-cp310-win_amd64.whl#sha256=25368e0adc93a7db0f3983502b4e57344f71af8f45ca3849f7c3833738f306aa
 parso==0.8.3
 pickleshare==0.7.5
-pillow 
+pillow @ file:///C:/miniconda3/conda-bld/pillow_1762528296412/work
+platformdirs @ file:///C:/miniconda3/conda-bld/platformdirs_1762356608986/work
 plotly==6.5.0
+pluggy @ file:///C:/b/abs_dfec_m79vo/croot/pluggy_1733170145382/work
 prompt-toolkit==3.0.31
 protobuf==6.33.1
 pure-eval==0.2.2
 pyarrow==22.0.0
+pycosat @ file:///C:/b/abs_18nblzzn70/croot/pycosat_1736868434419/work
+pycparser @ file:///C:/miniconda3/conda-bld/pycparser_1757496059965/work
 pydeck==0.9.1
 Pygments==2.13.0
 pyparsing==3.0.9
+PySocks @ file:///C:/miniconda3/conda-bld/pysocks_1761753030270/work
 python-dateutil==2.8.2
 python-louvain==0.16
-pytz 
+pytz @ file:///C:/b/abs_f8wdzeix0n/croot/pytz_1752135878094/work
 pyvis==0.3.2
 pywin32==304
 pyzmq==23.2.1
 referencing==0.37.0
-requests==2.32.5
+requests @ file:///C:/miniconda3/conda-bld/requests_1762359612241/work
 rpds-py==0.30.0
+ruamel.yaml @ file:///C:/miniconda3/conda-bld/ruamel.yaml_1762535973464/work
+ruamel.yaml.clib @ file:///C:/miniconda3/conda-bld/ruamel.yaml.clib_1762530094352/work
 scikit-learn==1.7.2
 scipy==1.15.3
-seaborn 
+seaborn @ file:///C:/b/abs_0bv5x0ucxb/croot/seaborn_1749110315600/work
 six==1.16.0
 smmap==5.0.2
 stack-data==0.5.0
@@ -75,9 +98,13 @@ tenacity==9.1.2
 threadpoolctl==3.6.0
 toml==0.10.2
 tornado==6.2
+tqdm @ file:///C:/miniconda3/conda-bld/tqdm_1762863407046/work
 traitlets==5.3.0
+truststore @ file:///C:/miniconda3/conda-bld/truststore_1762521109464/work
 typing_extensions==4.15.0
-tzdata 
+tzdata @ file:///croot/python-tzdata_1746123641790/work
 urllib3==2.5.0
 watchdog==6.0.0
 wcwidth==0.2.5
+win_inet_pton @ file:///C:/miniconda3/conda-bld/win_inet_pton_1761746276406/work
+zstandard @ file:///C:/miniconda3/conda-bld/zstandard_1758189088470/work
