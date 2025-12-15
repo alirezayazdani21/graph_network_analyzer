@@ -2,7 +2,6 @@
 # streamlit_graph_analysis_full.py
 """
 Connected Graph Visualizer & Analyzer
-- interactive PyVis embedded view
 - Plotly interactive view
 - exports: CSV, PNG, GraphML
 - multiple clustering methods + quality plots
@@ -20,16 +19,18 @@ import io
 import base64
 import sys
 import time
-from pyvis.network import Network
 import matplotlib.pyplot as plt
+
 from sklearn.cluster import SpectralClustering, KMeans
 from sklearn.metrics import silhouette_score, davies_bouldin_score, calinski_harabasz_score
 from sklearn.manifold import spectral_embedding
+
 import plotly.graph_objects as go
-import community as community_louvain  # python-louvain
+import community as community_louvain # pip install python-louvain
 from networkx.algorithms.connectivity import node_connectivity as nx_node_connectivity, edge_connectivity as nx_edge_connectivity
 from networkx.algorithms import approximation as nx_approx
 from networkx.algorithms import community as nx_community
+
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -486,7 +487,6 @@ if do_clustering and labels is not None and cluster_ok:
 
 
 st.markdown("---")
-#st.caption("References: PyVis examples & Streamlit embedding, Plotly network graphs, NetworkX read/write GraphML docs, NetworkX approximate connectivity and performance notes, scikit-learn clustering docs.")
 # ----------------- END original file -----------------
 
 # ----------------- BEGIN ADDED SECTION: k-core + expander benchmarking & spectral comparisons -----------------
