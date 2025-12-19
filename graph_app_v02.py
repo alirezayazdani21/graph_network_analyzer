@@ -11,6 +11,8 @@ Connected Graph Visualizer & Analyzer
 """
 import streamlit as st
 st.set_page_config(layout="wide", page_title="Graph Visualizer & Analyzer")
+st.cache_data.clear()
+
 
 
 import networkx as nx
