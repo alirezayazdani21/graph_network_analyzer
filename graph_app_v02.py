@@ -727,3 +727,4 @@ if run_kcore:
         st.download_button('Download Laplacian spectra (CSV)', data=lap_df.to_csv(index=False).encode(), file_name='laplacian_spectra.csv', mime='text/csv')
 
 st.markdown("---")
+st.button("Clear ALL cache_data", on_click=st.cache_data.clear)
